@@ -12,7 +12,7 @@ public class GreetingClient {
 
         GreetingGrpc.GreetingBlockingStub stub = GreetingGrpc.newBlockingStub(channel);
 
-        GreetingOuterClass.APIRequest request=GreetingOuterClass.APIRequest.newBuilder().setName("Bisman Kaur").build();
+        GreetingOuterClass.APIRequest request=GreetingOuterClass.APIRequest.newBuilder().setName("Gurdit Singh").build();
 
         GreetingOuterClass.APIResponse response = stub.sayHello(request);
 
